@@ -1,12 +1,12 @@
 <html>
 <head>
-  <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Media Player</title>
-	  <link rel="icon" type="image/png" href="https://shorturl.at/PK6y6">
-<link rel="stylesheet" href="https://bioskopkeren.pet/wp-content/themes/rbgw/style-ie.css" type="text/css" media="screen" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Player</title>
+	<link rel="stylesheet" href="https://bioskopkeren.pet/wp-content/themes/rbgw/style-ie.css" type="text/css" media="screen" />
 	<link href='https://fonts.googleapis.com/css?family=Oswald&v1' rel='stylesheet' type='text/css'>
-<script defer src="https://bioskopkeren.pet/wp-content/cache/autoptimize/js/autoptimize_099b495e0f64f14baf8bebf22fd16c21.js" type="22aa10060920b5a48d6d1437-text/javascript"></script><script src="https://bioskopkeren.pet/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="22aa10060920b5a48d6d1437-|49" defer></script>
+	<script defer src="https://bioskopkeren.pet/wp-content/cache/autoptimize/js/autoptimize_099b495e0f64f14baf8bebf22fd16c21.js" type="22aa10060920b5a48d6d1437-text/javascript"></script>
+	<script src="https://bioskopkeren.pet/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="22aa10060920b5a48d6d1437-|49" defer></script>
   <style>
 .centered-title {
     font-family: 'Arial', sans-serif;
@@ -26,22 +26,16 @@
 <body>
 <div class="leftC">
 <div class="filmborder" aria-xid="96316">
-	<div class="filmcontent">
-      
-		<div id="filmoncereklam" align="center" style="display: none;">
-		
-		</div>
-				
-                  
-                  <iframe id="player" scrolling="yes" allowfullscreen="true" frameborder="0" marginwidth="0" marginheight="0" width="100%" height="600"></iframe>
-    <script>
-        var urlParams = new URLSearchParams(window.location.search);
-        var url = urlParams.get('url');
-        document.getElementById("player").src = url;
-    </script>
-      </div>
-    
-  		</div>				
-	</div>
+<div class="filmcontent">      
+<div id="filmoncereklam" align="center" style="display: none;"></div>		
+<iframe id="player" scrolling="yes" allowfullscreen="true" frameborder="0" marginwidth="0" marginheight="0" width="100%" height="600"></iframe>
+<script>
+var urlParams = new URLSearchParams(window.location.search);
+var url = urlParams.get('url');
+document.getElementById("player").src = url;
+</script>
+</div>    
+</div>				
+</div>
 </body>
 </html>
